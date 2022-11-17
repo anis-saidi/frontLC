@@ -1,4 +1,4 @@
 ---
 #buidproject
 - name: build app
-  shell: npm install && ng build
+  shell: ng build --prod
