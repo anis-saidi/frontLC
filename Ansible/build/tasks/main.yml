@@ -2,6 +2,6 @@
 #buidproject
 
 - name: install dep
-  shell: npm install --save --legacy-peer-deps
+  shell: npm ci
 - name: build app
   shell: ng build
