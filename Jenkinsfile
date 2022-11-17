@@ -2,17 +2,7 @@ pipeline
 {
    agent any
     stages {
-     stage('Pull') {
-      steps{
-       script{
-     checkout([$class: 'GitSCM', branches: [[name: '*/main']],
-         userRemoteConfigs: [[
-         
-         url:'https://github.com/fedi-ba/cicd_angular']]])
-         
-         }
-      }
-     }
+     
       
        
      stage ('build'){
