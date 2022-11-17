@@ -1,7 +1,4 @@
 ---
 #buidproject
-
-- name: install dep
-  shell: npm ci
 - name: build app
-  shell: ng build
+  shell: npm install && ng build
